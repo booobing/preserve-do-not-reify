@@ -5,6 +5,7 @@
 % Build: .harness/scripts/build_paper1_manuscript.sh
 % Revision 2 (2026-10-28): claims audited sentence by sentence against the sources (8 must-fix, 15 should-fix, 10 minor applied).
 % Revision 3 (2026-11-01): HAHE run on the same pipeline and judged against our encoder (charter-hahe-same-harness-v1).
+% 2026-11-04: data availability points to the public reproduction repository github.com/booobing/preserve-do-not-reify.
 \documentclass[11pt,a4paper]{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -29,7 +30,7 @@
 
 \title{Preserve, Do Not Reify: Controlled Evidence for Keeping\\N-ary Facts Whole in Knowledge Graph Completion}
 \author{[Author names]\\[2pt]\small [Affiliation, Department, City, Country]\\\small [Corresponding author e-mail]}
-\date{Manuscript draft, 1 November 2026}
+\date{Manuscript draft, 4 November 2026}
 
 \begin{document}
 \maketitle
@@ -375,7 +376,7 @@ With StarE's encoder, short budgets favoured the reified graph: it led at most e
 Holding the encoder, its budget and its information fixed, and its parameters fixed or within 1.6\% (except the deliberately larger control of the depth condition), keeping an n-ary fact whole---as a hyperedge, or as StarE's qualifier-carrying edge---was a better input than its standard reification in all nine judged comparisons, on two encoders and under two protocols. Under the standard protocol the advantage is about one point of MRR and is in place by epoch 120 of 401 in both studies; with StarE's encoder, reification learns faster early and can look better at short budgets. The practical advice is modest: if a model can take n-ary facts directly, giving it the reified form costs a little accuracy and more memory, and representation comparisons should be judged at convergence. The evidence concerns the input representation, not our encoder as a model: on an identical pipeline HAHE beats it on all five seeds.
 
 \section*{Data and code availability}
-Code (including the bridge that runs HAHE's pinned public code on the StarE pipeline), run configurations, per-epoch metrics and judgment files will be made available at [repository URL to be decided by the authors]. WD50K(100) is part of the StarE release \citep{galkin2020stare}. Every number in this manuscript is checked against the run artifacts by a script in the repository.
+Code (including the bridge that runs HAHE's pinned public code on the StarE pipeline), run configurations, per-epoch metrics, judgment files and the plan of each study (in Korean) are available at \url{https://github.com/booobing/preserve-do-not-reify}. WD50K(100) is part of the StarE release \citep{galkin2020stare}. Every number in this manuscript is checked against the run artifacts by a script in the repository.
 
 \section*{Declaration of generative AI use}
 [The authors must complete this statement truthfully.] During the preparation of this work the author(s) used Claude (Anthropic) to write and debug experiment code, run analyses, and draft and edit the text. After using this tool, the author(s) reviewed and edited the content and take full responsibility for the publication.
