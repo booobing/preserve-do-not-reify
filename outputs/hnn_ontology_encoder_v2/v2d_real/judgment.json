@@ -1,0 +1,83 @@
+{
+  "rule": "charter-hnn-ontology-encoder-v2 §7 (v2d_real)",
+  "factor": "v2d_real",
+  "proposal": "hyper",
+  "control": "reified_binary",
+  "metrics": [
+    "completion.mrr",
+    "completion.acc@10"
+  ],
+  "n_seeds_compared": 5,
+  "min_seeds": 5,
+  "win_threshold": 4,
+  "wins_completion.mrr": 5,
+  "wins_completion.acc@10": 5,
+  "verdict": "success",
+  "per_seed": [
+    {
+      "seed": 1,
+      "completion.mrr": [
+        0.14437628810578584,
+        0.11852901680361519
+      ],
+      "completion.acc@10": [
+        0.2925,
+        0.213
+      ],
+      "win_completion.mrr": true,
+      "win_completion.acc@10": true
+    },
+    {
+      "seed": 2,
+      "completion.mrr": [
+        0.1403883109274081,
+        0.11795301093619812
+      ],
+      "completion.acc@10": [
+        0.282,
+        0.219
+      ],
+      "win_completion.mrr": true,
+      "win_completion.acc@10": true
+    },
+    {
+      "seed": 3,
+      "completion.mrr": [
+        0.15531811989572056,
+        0.11918903781485854
+      ],
+      "completion.acc@10": [
+        0.294,
+        0.2195
+      ],
+      "win_completion.mrr": true,
+      "win_completion.acc@10": true
+    },
+    {
+      "seed": 4,
+      "completion.mrr": [
+        0.14456179582092052,
+        0.11600949514096291
+      ],
+      "completion.acc@10": [
+        0.278,
+        0.2075
+      ],
+      "win_completion.mrr": true,
+      "win_completion.acc@10": true
+    },
+    {
+      "seed": 5,
+      "completion.mrr": [
+        0.15154675667615664,
+        0.11870685391674823
+      ],
+      "completion.acc@10": [
+        0.3,
+        0.2185
+      ],
+      "win_completion.mrr": true,
+      "win_completion.acc@10": true
+    }
+  ]
+}

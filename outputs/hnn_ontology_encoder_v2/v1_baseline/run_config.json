@@ -1,0 +1,50 @@
+{
+  "args": {
+    "factor": "v1_baseline",
+    "arms": [
+      "hyper",
+      "reified_binary"
+    ],
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "d": 64,
+    "layers": 2,
+    "text_dim": 64,
+    "text_buckets": 4096,
+    "world_preset": "v1",
+    "real_variant": "wd50k_100",
+    "real_eval_limit": 2000,
+    "mask_chunk": 128,
+    "device": "auto",
+    "out": "outputs/hnn_ontology_encoder_v2",
+    "allow_any_out": false,
+    "deterministic": true
+  },
+  "factor": {
+    "inductive": false,
+    "head_parity": false,
+    "text_tower": "hashing",
+    "real": false
+  },
+  "data": {
+    "facts": 390.0,
+    "entities": 78.0
+  },
+  "device": "cuda",
+  "deterministic": true,
+  "inductive": {
+    "inductive": 0.0
+  },
+  "params_by_arm": {
+    "hyper": 351553,
+    "reified_binary": 351553
+  }
+}

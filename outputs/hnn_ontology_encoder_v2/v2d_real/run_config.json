@@ -1,0 +1,63 @@
+{
+  "args": {
+    "factor": "v2d_real",
+    "arms": [
+      "hyper",
+      "reified_binary"
+    ],
+    "seeds": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "d": 64,
+    "layers": 2,
+    "text_dim": 64,
+    "text_buckets": 4096,
+    "world_preset": "v1",
+    "real_variant": "wd50k_100",
+    "real_eval_limit": 2000,
+    "mask_chunk": 128,
+    "device": "auto",
+    "out": "outputs/hnn_ontology_encoder_v2",
+    "allow_any_out": false,
+    "deterministic": true
+  },
+  "factor": {
+    "inductive": true,
+    "head_parity": true,
+    "text_tower": "hashing",
+    "real": true
+  },
+  "data": {
+    "facts": 31314.0,
+    "entities": 18025.0,
+    "relations": 204.0,
+    "mean_arity": 3.3033148112665263,
+    "max_arity": 7.0,
+    "n_ary_fraction": 1.0,
+    "train_facts": 22738.0,
+    "test_facts": 5297.0,
+    "val_facts": 3279.0
+  },
+  "device": "cuda",
+  "deterministic": true,
+  "inductive": {
+    "inductive": 1.0,
+    "facts_total": 31314.0,
+    "facts_in_training_graph": 22738.0,
+    "held_out_facts": 8576.0,
+    "nodes_total": 18025.0,
+    "nodes_in_training_graph": 18025.0,
+    "memberships_removed": 28643.0
+  },
+  "params_by_arm": {
+    "hyper": 380481,
+    "reified_binary": 380481
+  }
+}

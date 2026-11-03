@@ -1,0 +1,96 @@
+{
+  "arm": "reified",
+  "seed": 3,
+  "eval_split": "test",
+  "eval_queries": 10594,
+  "params": 4989016,
+  "device": "cuda",
+  "upstream_commit": "b294b9e2cde97ab9e81d2736b7f1f0959c9fd98b",
+  "graph": {
+    "statements_in_graph": 26017,
+    "statement_nodes": 26017,
+    "role_edges": 89208,
+    "role_edges_with_inverses": 178416,
+    "nodes_total": 44809,
+    "relations_total": 281,
+    "edges_with_inverses": 178416
+  },
+  "shims": {
+    "torch_scatter": "shim",
+    "wandb": "shim"
+  },
+  "candidate_entities": 10874,
+  "excluded_entities": 7918,
+  "epochs_done": 401,
+  "epochs_target": 401,
+  "last_eval": {
+    "epoch": 401,
+    "metrics": {
+      "count": 5297.0,
+      "mr": 360.22531621672647,
+      "mrr": 0.650427093815529,
+      "hits_at 1": 0.5829714932980933,
+      "hits_at 3": 0.6928450066075137,
+      "hits_at 5": 0.7311685859920709,
+      "hits_at 10": 0.7713800264300548
+    },
+    "object_prediction": {
+      "count": 5297.0,
+      "mr": 273.7224844251463,
+      "mrr": 0.665858527095853,
+      "hits_at 1": 0.5961865206720786,
+      "hits_at 3": 0.7117236171417783,
+      "hits_at 5": 0.7483481215782518,
+      "hits_at 10": 0.7881819898055503
+    },
+    "subject_prediction": {
+      "count": 5297.0,
+      "mr": 446.72814800830656,
+      "mrr": 0.634995660535205,
+      "hits_at 1": 0.569756465924108,
+      "hits_at 3": 0.673966396073249,
+      "hits_at 5": 0.7139890504058901,
+      "hits_at 10": 0.7545780630545592
+    },
+    "queries": 10594,
+    "time_s": 3.863987200020347
+  },
+  "best_eval": {
+    "epoch": 401,
+    "metrics": {
+      "count": 5297.0,
+      "mr": 360.22531621672647,
+      "mrr": 0.650427093815529,
+      "hits_at 1": 0.5829714932980933,
+      "hits_at 3": 0.6928450066075137,
+      "hits_at 5": 0.7311685859920709,
+      "hits_at 10": 0.7713800264300548
+    },
+    "object_prediction": {
+      "count": 5297.0,
+      "mr": 273.7224844251463,
+      "mrr": 0.665858527095853,
+      "hits_at 1": 0.5961865206720786,
+      "hits_at 3": 0.7117236171417783,
+      "hits_at 5": 0.7483481215782518,
+      "hits_at 10": 0.7881819898055503
+    },
+    "subject_prediction": {
+      "count": 5297.0,
+      "mr": 446.72814800830656,
+      "mrr": 0.634995660535205,
+      "hits_at 1": 0.569756465924108,
+      "hits_at 3": 0.673966396073249,
+      "hits_at 5": 0.7139890504058901,
+      "hits_at 10": 0.7545780630545592
+    },
+    "queries": 10594,
+    "time_s": 3.863987200020347
+  },
+  "train_time_s": 35129.65409421921,
+  "eval_time_s": 157.71441310009686,
+  "mean_epoch_time_s": 87.60512242947433,
+  "peak_vram_mb": 1537.04931640625,
+  "wall_this_process_s": 35339.057513952255,
+  "resumed": false
+}

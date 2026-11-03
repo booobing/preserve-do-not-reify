@@ -1,0 +1,58 @@
+{
+  "factor": "v2c_text",
+  "factor_config": {
+    "inductive": false,
+    "head_parity": false,
+    "text_tower": "sentence_transformer",
+    "real": false
+  },
+  "arm": "flat_text",
+  "seed": 1,
+  "params": 97332,
+  "steps": 1500,
+  "batch_size": 32,
+  "lr": 0.002,
+  "first_loss": 6.306911945343018,
+  "final_loss": 1.7670836448669434,
+  "retrieval": {
+    "recall@1": 0.4957265257835388,
+    "recall@5": 0.888888955116272,
+    "recall@10": 0.9658120274543762,
+    "mrr": 0.6616883277893066,
+    "n": 117.0
+  },
+  "completion": {
+    "acc@1": 0.2288135593220339,
+    "acc@3": 0.5508474576271186,
+    "n": 118.0
+  },
+  "val_retrieval": {
+    "recall@1": 0.43478259444236755,
+    "recall@5": 0.7999999523162842,
+    "recall@10": 0.8869564533233643,
+    "mrr": 0.6001077890396118,
+    "n": 115.0
+  },
+  "val_completion": {
+    "acc@1": 0.1864406779661017,
+    "acc@3": 0.5254237288135594,
+    "n": 118.0
+  },
+  "inductive": {
+    "inductive": 0.0
+  },
+  "mask_chunk": 128,
+  "wall_time_s": 72.21453910000855,
+  "peak_vram_mb": 1109.1455078125,
+  "device": "cuda",
+  "deterministic": true,
+  "model_config": {
+    "d": 64,
+    "layers": 2,
+    "text_dim": 64,
+    "text_buckets": 4096,
+    "dropout": 0.0,
+    "head_parity": false,
+    "text_tower": "sentence_transformer"
+  }
+}

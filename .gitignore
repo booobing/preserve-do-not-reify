@@ -1,0 +1,28 @@
+# environment and caches
+.venv/
+__pycache__/
+*.pyc
+.ruff_cache/
+.harness/tmp/
+.harness/uv-cache/
+
+# fetched at pinned commits by .harness/scripts/fetch_*.py, never committed
+third_party/StarE/
+third_party/HAHE/
+# Study 1 downloads WD50K(100) here (src/ontology/real_data.py)
+data/
+
+# run byproducts that are not kept in the repository
+outputs/**/*.pt
+outputs/**/*.log
+outputs/**/vocab.txt
+outputs/**/driver_pid.txt
+outputs/**/telemetry.csv
+outputs/**/smoke/
+
+# LaTeX build files (the built PDF is kept)
+papers/preserve_vs_reify/*.aux
+papers/preserve_vs_reify/*.bbl
+papers/preserve_vs_reify/*.blg
+papers/preserve_vs_reify/*.log
+papers/preserve_vs_reify/*.out

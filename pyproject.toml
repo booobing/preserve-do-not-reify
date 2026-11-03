@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "preserve-do-not-reify"
+version = "1.0.0"
+description = "Reproduction code, run artifacts and checks for 'Preserve, Do Not Reify: Controlled Evidence for Keeping N-ary Facts Whole in Knowledge Graph Completion'."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+    "matplotlib>=3.7",
+    "numpy>=1.24",
+    "torch>=2.10,<2.11",
+    # Study 1: `sentence-transformers` is the frozen text tower of condition C; `transformers` backs it.
+    "sentence-transformers>=3.0,<6",
+    "transformers>=4.40,<6",
+    # Studies 2-3 and the HAHE comparison: the pinned StarE and HAHE code subclass PyTorch Geometric
+    # layers. torch_scatter has no wheel for this torch/CUDA/OS and is replaced by
+    # `src/ontology/stare_bridge/shims`.
+    "torch-geometric>=2.6,<2.7",
+]
+
+[dependency-groups]
+dev = [
+    "hypothesis>=6.100",
+    "pytest>=7.4",
+    "ruff>=0.11",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
+
+[tool.ruff]
+extend-exclude = [".harness/tmp", ".venv", "third_party"]
+line-length = 100
+target-version = "py313"
+
+[tool.ruff.lint]
+ignore = ["E402", "E501", "UP006", "UP007", "UP035", "UP045"]
+select = ["E", "F", "I", "B", "UP", "S"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["S101"]
+
+[tool.pytest.ini_options]
+addopts = "-ra -p no:cacheprovider"
+testpaths = ["tests"]
+
+[tool.uv]
+# The lock was resolved with these cutoffs; keeping them here means `uv lock` reproduces it.
+exclude-newer = "2026-08-13T15:00:00Z"
+exclude-newer-package = { urllib3 = "2026-10-01T00:00:00Z", multidict = "2026-10-01T00:00:00Z" }
+
+[tool.uv.sources]
+torch = [
+    { url = "https://download.pytorch.org/whl/cu130/torch-2.10.0%2Bcu130-cp313-cp313-win_amd64.whl", marker = "sys_platform == 'win32'" },
+]

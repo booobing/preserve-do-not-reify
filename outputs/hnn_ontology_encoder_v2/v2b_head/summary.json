@@ -1,0 +1,582 @@
+[
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 1,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 7.1880388259887695,
+    "final_loss": 1.2774977684020996,
+    "retrieval": {
+      "recall@1": 0.4529914855957031,
+      "recall@5": 0.8205128908157349,
+      "recall@10": 0.9059829711914062,
+      "mrr": 0.6266148686408997,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.5,
+      "acc@3": 0.7288135593220338,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.52173912525177,
+      "recall@5": 0.8434782028198242,
+      "recall@10": 0.9478260278701782,
+      "mrr": 0.6586461067199707,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.4915254237288136,
+      "acc@3": 0.7796610169491526,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 123.74999160005245,
+    "peak_vram_mb": 82.171875,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 2,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.965512275695801,
+    "final_loss": 0.909981906414032,
+    "retrieval": {
+      "recall@1": 0.46153849363327026,
+      "recall@5": 0.8803419470787048,
+      "recall@10": 0.9487180113792419,
+      "mrr": 0.6354554295539856,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.5084745762711864,
+      "acc@3": 0.7711864406779662,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.46086955070495605,
+      "recall@5": 0.7913042902946472,
+      "recall@10": 0.8869564533233643,
+      "mrr": 0.615460216999054,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.5169491525423728,
+      "acc@3": 0.8135593220338984,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 101.54792839998845,
+    "peak_vram_mb": 82.1728515625,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 3,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 7.22413969039917,
+    "final_loss": 1.4343465566635132,
+    "retrieval": {
+      "recall@1": 0.5470085740089417,
+      "recall@5": 0.8717949390411377,
+      "recall@10": 0.9316239953041077,
+      "mrr": 0.682937502861023,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.4745762711864407,
+      "acc@3": 0.7627118644067796,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.417391300201416,
+      "recall@5": 0.8608695268630981,
+      "recall@10": 0.9391303658485413,
+      "mrr": 0.6021993160247803,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.5084745762711864,
+      "acc@3": 0.8220338983050848,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 104.93630979995942,
+    "peak_vram_mb": 82.1708984375,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 4,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.314076900482178,
+    "final_loss": 0.7970424294471741,
+    "retrieval": {
+      "recall@1": 0.5555555820465088,
+      "recall@5": 0.8632479310035706,
+      "recall@10": 0.9401710033416748,
+      "mrr": 0.6950759291648865,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.5169491525423728,
+      "acc@3": 0.7627118644067796,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.49565213918685913,
+      "recall@5": 0.8260869383811951,
+      "recall@10": 0.9043477773666382,
+      "mrr": 0.6396436095237732,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.559322033898305,
+      "acc@3": 0.7796610169491526,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 98.4325243999483,
+    "peak_vram_mb": 82.1708984375,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 5,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 5.991250038146973,
+    "final_loss": 0.9936755895614624,
+    "retrieval": {
+      "recall@1": 0.5384615659713745,
+      "recall@5": 0.8803419470787048,
+      "recall@10": 0.9401710033416748,
+      "mrr": 0.6954261064529419,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.5084745762711864,
+      "acc@3": 0.7542372881355932,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.5130434632301331,
+      "recall@5": 0.8434782028198242,
+      "recall@10": 0.9043477773666382,
+      "mrr": 0.6506394743919373,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.4915254237288136,
+      "acc@3": 0.7796610169491526,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 101.80295409995597,
+    "peak_vram_mb": 82.171875,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 1,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.390249252319336,
+    "final_loss": 1.6845109462738037,
+    "retrieval": {
+      "recall@1": 0.3076923191547394,
+      "recall@5": 0.7179487347602844,
+      "recall@10": 0.8717949390411377,
+      "mrr": 0.48935556411743164,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.4067796610169492,
+      "acc@3": 0.7203389830508474,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.19999998807907104,
+      "recall@5": 0.6347825527191162,
+      "recall@10": 0.7999999523162842,
+      "mrr": 0.39174413681030273,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.4576271186440678,
+      "acc@3": 0.7542372881355932,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 111.28676720004296,
+    "peak_vram_mb": 101.3603515625,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 2,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 7.013389587402344,
+    "final_loss": 1.460593819618225,
+    "retrieval": {
+      "recall@1": 0.2735042870044708,
+      "recall@5": 0.6837607026100159,
+      "recall@10": 0.8461539149284363,
+      "mrr": 0.4518860876560211,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.3983050847457627,
+      "acc@3": 0.7372881355932204,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.208695650100708,
+      "recall@5": 0.7043477892875671,
+      "recall@10": 0.8260869383811951,
+      "mrr": 0.4110012948513031,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.5338983050847458,
+      "acc@3": 0.7966101694915254,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 126.03571240004385,
+    "peak_vram_mb": 101.361328125,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 3,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 5.927392959594727,
+    "final_loss": 1.515671730041504,
+    "retrieval": {
+      "recall@1": 0.2478632628917694,
+      "recall@5": 0.632478654384613,
+      "recall@10": 0.7435897588729858,
+      "mrr": 0.4077337086200714,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.3559322033898305,
+      "acc@3": 0.6610169491525424,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.23478259146213531,
+      "recall@5": 0.626086950302124,
+      "recall@10": 0.782608687877655,
+      "mrr": 0.41783395409584045,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.3813559322033898,
+      "acc@3": 0.7288135593220338,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 119.18473799998173,
+    "peak_vram_mb": 101.359375,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 4,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.6958208084106445,
+    "final_loss": 1.2838424444198608,
+    "retrieval": {
+      "recall@1": 0.3076923191547394,
+      "recall@5": 0.7008547186851501,
+      "recall@10": 0.8717949390411377,
+      "mrr": 0.4983794689178467,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.4322033898305085,
+      "acc@3": 0.7627118644067796,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.2956521511077881,
+      "recall@5": 0.6695652008056641,
+      "recall@10": 0.7739130258560181,
+      "mrr": 0.46659258008003235,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.5338983050847458,
+      "acc@3": 0.7966101694915254,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 109.85709359997418,
+    "peak_vram_mb": 101.359375,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2b_head",
+    "factor_config": {
+      "inductive": false,
+      "head_parity": true,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 5,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.156618118286133,
+    "final_loss": 1.4820564985275269,
+    "retrieval": {
+      "recall@1": 0.29914531111717224,
+      "recall@5": 0.7606837749481201,
+      "recall@10": 0.8376069068908691,
+      "mrr": 0.49052783846855164,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.423728813559322,
+      "acc@3": 0.711864406779661,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.313043475151062,
+      "recall@5": 0.7391303777694702,
+      "recall@10": 0.9043477773666382,
+      "mrr": 0.49766963720321655,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.4661016949152542,
+      "acc@3": 0.7542372881355932,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 0.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 113.08115360001102,
+    "peak_vram_mb": 101.3603515625,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": true,
+      "text_tower": "hashing"
+    }
+  }
+]

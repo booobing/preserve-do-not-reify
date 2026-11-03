@@ -1,0 +1,64 @@
+{
+  "factor": "v2_combined",
+  "factor_config": {
+    "inductive": true,
+    "head_parity": true,
+    "text_tower": "sentence_transformer",
+    "real": false
+  },
+  "arm": "reified_binary",
+  "seed": 5,
+  "params": 97345,
+  "steps": 1500,
+  "batch_size": 32,
+  "lr": 0.002,
+  "first_loss": 5.910269737243652,
+  "final_loss": 2.240328073501587,
+  "retrieval": {
+    "recall@1": 0.17094017565250397,
+    "recall@5": 0.5897436141967773,
+    "recall@10": 0.811965823173523,
+    "mrr": 0.35525697469711304,
+    "n": 117.0
+  },
+  "completion": {
+    "acc@1": 0.1694915254237288,
+    "acc@3": 0.3983050847457627,
+    "n": 118.0
+  },
+  "val_retrieval": {
+    "recall@1": 0.1826086938381195,
+    "recall@5": 0.52173912525177,
+    "recall@10": 0.6521738767623901,
+    "mrr": 0.3396165668964386,
+    "n": 115.0
+  },
+  "val_completion": {
+    "acc@1": 0.2288135593220339,
+    "acc@3": 0.4067796610169492,
+    "n": 118.0
+  },
+  "inductive": {
+    "inductive": 1.0,
+    "facts_total": 390.0,
+    "facts_in_training_graph": 272.0,
+    "held_out_facts": 118.0,
+    "nodes_total": 78.0,
+    "nodes_in_training_graph": 78.0,
+    "memberships_removed": 498.0
+  },
+  "mask_chunk": 128,
+  "wall_time_s": 129.11134539998602,
+  "peak_vram_mb": 2376.0712890625,
+  "device": "cuda",
+  "deterministic": true,
+  "model_config": {
+    "d": 64,
+    "layers": 2,
+    "text_dim": 64,
+    "text_buckets": 4096,
+    "dropout": 0.0,
+    "head_parity": true,
+    "text_tower": "sentence_transformer"
+  }
+}

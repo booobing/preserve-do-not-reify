@@ -1,0 +1,59 @@
+{
+  "factor": "v2e_depth_parity",
+  "factor_config": {
+    "inductive": false,
+    "head_parity": true,
+    "text_tower": "hashing",
+    "real": false,
+    "control_arm": "reified_binary_deep"
+  },
+  "arm": "reified_binary_deep",
+  "seed": 5,
+  "params": 401729,
+  "steps": 1500,
+  "batch_size": 32,
+  "lr": 0.002,
+  "first_loss": 7.27446174621582,
+  "final_loss": 1.6517317295074463,
+  "retrieval": {
+    "recall@1": 0.34188035130500793,
+    "recall@5": 0.7692307829856873,
+    "recall@10": 0.8803419470787048,
+    "mrr": 0.5164034366607666,
+    "n": 117.0
+  },
+  "completion": {
+    "acc@1": 0.3559322033898305,
+    "acc@3": 0.6186440677966102,
+    "n": 118.0
+  },
+  "val_retrieval": {
+    "recall@1": 0.2695651948451996,
+    "recall@5": 0.730434775352478,
+    "recall@10": 0.8434782028198242,
+    "mrr": 0.44903117418289185,
+    "n": 115.0
+  },
+  "val_completion": {
+    "acc@1": 0.423728813559322,
+    "acc@3": 0.6694915254237288,
+    "n": 118.0
+  },
+  "inductive": {
+    "inductive": 0.0
+  },
+  "mask_chunk": 128,
+  "wall_time_s": 131.03602550001233,
+  "peak_vram_mb": 127.5947265625,
+  "device": "cuda",
+  "deterministic": true,
+  "model_config": {
+    "d": 64,
+    "layers": 2,
+    "text_dim": 64,
+    "text_buckets": 4096,
+    "dropout": 0.0,
+    "head_parity": true,
+    "text_tower": "hashing"
+  }
+}

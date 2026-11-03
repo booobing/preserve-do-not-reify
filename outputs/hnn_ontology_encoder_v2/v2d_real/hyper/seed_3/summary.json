@@ -1,0 +1,68 @@
+{
+  "factor": "v2d_real",
+  "factor_config": {
+    "inductive": true,
+    "head_parity": true,
+    "text_tower": "hashing",
+    "real": true
+  },
+  "arm": "hyper",
+  "seed": 3,
+  "params": 380481,
+  "steps": 1500,
+  "batch_size": 32,
+  "lr": 0.002,
+  "first_loss": 10.199407577514648,
+  "final_loss": 5.257576942443848,
+  "retrieval": {
+    "recall@1": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "mrr": 0.0,
+    "n": 0.0
+  },
+  "completion": {
+    "acc@1": 0.086,
+    "acc@3": 0.158,
+    "acc@10": 0.294,
+    "n": 2000.0,
+    "mrr": 0.15531811989572056
+  },
+  "val_retrieval": {
+    "recall@1": 0.0,
+    "recall@5": 0.0,
+    "recall@10": 0.0,
+    "mrr": 0.0,
+    "n": 0.0
+  },
+  "val_completion": {
+    "acc@1": 0.098,
+    "acc@3": 0.163,
+    "acc@10": 0.2855,
+    "n": 2000.0,
+    "mrr": 0.16045802156458566
+  },
+  "inductive": {
+    "inductive": 1.0,
+    "facts_total": 31314.0,
+    "facts_in_training_graph": 22738.0,
+    "held_out_facts": 8576.0,
+    "nodes_total": 18025.0,
+    "nodes_in_training_graph": 18025.0,
+    "memberships_removed": 28643.0
+  },
+  "mask_chunk": 128,
+  "wall_time_s": 492.8569173999713,
+  "peak_vram_mb": 568.67626953125,
+  "device": "cuda",
+  "deterministic": true,
+  "model_config": {
+    "d": 64,
+    "layers": 2,
+    "text_dim": 64,
+    "text_buckets": 4096,
+    "dropout": 0.0,
+    "head_parity": true,
+    "text_tower": "hashing"
+  }
+}

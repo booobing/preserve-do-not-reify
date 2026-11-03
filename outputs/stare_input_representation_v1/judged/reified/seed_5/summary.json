@@ -1,0 +1,96 @@
+{
+  "arm": "reified",
+  "seed": 5,
+  "eval_split": "test",
+  "eval_queries": 10594,
+  "params": 4989016,
+  "device": "cuda",
+  "upstream_commit": "b294b9e2cde97ab9e81d2736b7f1f0959c9fd98b",
+  "graph": {
+    "statements_in_graph": 26017,
+    "statement_nodes": 26017,
+    "role_edges": 89208,
+    "role_edges_with_inverses": 178416,
+    "nodes_total": 44809,
+    "relations_total": 281,
+    "edges_with_inverses": 178416
+  },
+  "shims": {
+    "torch_scatter": "shim",
+    "wandb": "shim"
+  },
+  "candidate_entities": 10874,
+  "excluded_entities": 7918,
+  "epochs_done": 401,
+  "epochs_target": 401,
+  "last_eval": {
+    "epoch": 401,
+    "metrics": {
+      "count": 5297.0,
+      "mr": 357.3419860298282,
+      "mrr": 0.6495694359766215,
+      "hits_at 1": 0.5801397017179536,
+      "hits_at 3": 0.6944496885029262,
+      "hits_at 5": 0.7335284123088541,
+      "hits_at 10": 0.7727015291674533
+    },
+    "object_prediction": {
+      "count": 5297.0,
+      "mr": 263.0536152539173,
+      "mrr": 0.6660770674077704,
+      "hits_at 1": 0.5925995846705683,
+      "hits_at 3": 0.7179535586180857,
+      "hits_at 5": 0.7545780630545592,
+      "hits_at 10": 0.7889371342269209
+    },
+    "subject_prediction": {
+      "count": 5297.0,
+      "mr": 451.6303568057391,
+      "mrr": 0.6330618045454726,
+      "hits_at 1": 0.5676798187653389,
+      "hits_at 3": 0.6709458183877667,
+      "hits_at 5": 0.7124787615631489,
+      "hits_at 10": 0.7564659241079856
+    },
+    "queries": 10594,
+    "time_s": 3.8293563000042923
+  },
+  "best_eval": {
+    "epoch": 401,
+    "metrics": {
+      "count": 5297.0,
+      "mr": 357.3419860298282,
+      "mrr": 0.6495694359766215,
+      "hits_at 1": 0.5801397017179536,
+      "hits_at 3": 0.6944496885029262,
+      "hits_at 5": 0.7335284123088541,
+      "hits_at 10": 0.7727015291674533
+    },
+    "object_prediction": {
+      "count": 5297.0,
+      "mr": 263.0536152539173,
+      "mrr": 0.6660770674077704,
+      "hits_at 1": 0.5925995846705683,
+      "hits_at 3": 0.7179535586180857,
+      "hits_at 5": 0.7545780630545592,
+      "hits_at 10": 0.7889371342269209
+    },
+    "subject_prediction": {
+      "count": 5297.0,
+      "mr": 451.6303568057391,
+      "mrr": 0.6330618045454726,
+      "hits_at 1": 0.5676798187653389,
+      "hits_at 3": 0.6709458183877667,
+      "hits_at 5": 0.7124787615631489,
+      "hits_at 10": 0.7564659241079856
+    },
+    "queries": 10594,
+    "time_s": 3.8293563000042923
+  },
+  "train_time_s": 35182.368863105774,
+  "eval_time_s": 159.44047650019638,
+  "mean_epoch_time_s": 87.73658070599943,
+  "peak_vram_mb": 1537.04931640625,
+  "wall_this_process_s": 35379.174057245255,
+  "resumed": false
+}

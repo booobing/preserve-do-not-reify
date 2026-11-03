@@ -1,0 +1,83 @@
+{
+  "rule": "charter-hnn-ontology-encoder-v2 §7 (v2b_head)",
+  "factor": "v2b_head",
+  "proposal": "hyper",
+  "control": "reified_binary",
+  "metrics": [
+    "retrieval.recall@5",
+    "completion.acc@1"
+  ],
+  "n_seeds_compared": 5,
+  "min_seeds": 5,
+  "win_threshold": 4,
+  "wins_retrieval.recall@5": 5,
+  "wins_completion.acc@1": 5,
+  "verdict": "success",
+  "per_seed": [
+    {
+      "seed": 1,
+      "retrieval.recall@5": [
+        0.8205128908157349,
+        0.7179487347602844
+      ],
+      "completion.acc@1": [
+        0.5,
+        0.4067796610169492
+      ],
+      "win_retrieval.recall@5": true,
+      "win_completion.acc@1": true
+    },
+    {
+      "seed": 2,
+      "retrieval.recall@5": [
+        0.8803419470787048,
+        0.6837607026100159
+      ],
+      "completion.acc@1": [
+        0.5084745762711864,
+        0.3983050847457627
+      ],
+      "win_retrieval.recall@5": true,
+      "win_completion.acc@1": true
+    },
+    {
+      "seed": 3,
+      "retrieval.recall@5": [
+        0.8717949390411377,
+        0.632478654384613
+      ],
+      "completion.acc@1": [
+        0.4745762711864407,
+        0.3559322033898305
+      ],
+      "win_retrieval.recall@5": true,
+      "win_completion.acc@1": true
+    },
+    {
+      "seed": 4,
+      "retrieval.recall@5": [
+        0.8632479310035706,
+        0.7008547186851501
+      ],
+      "completion.acc@1": [
+        0.5169491525423728,
+        0.4322033898305085
+      ],
+      "win_retrieval.recall@5": true,
+      "win_completion.acc@1": true
+    },
+    {
+      "seed": 5,
+      "retrieval.recall@5": [
+        0.8803419470787048,
+        0.7606837749481201
+      ],
+      "completion.acc@1": [
+        0.5084745762711864,
+        0.423728813559322
+      ],
+      "win_retrieval.recall@5": true,
+      "win_completion.acc@1": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "StarE",
+  "url": "https://github.com/migalkin/StarE.git",
+  "commit": "b294b9e2cde97ab9e81d2736b7f1f0959c9fd98b",
+  "commit_date": "2023-12-01",
+  "license": "MIT",
+  "charter": "docs/charter-stare-input-representation-v1.md",
+  "root": "third_party/StarE",
+  "files_sha256": {
+    "data/clean/wd50k_100/statements/train.txt": "ae2dac6a2131fcd31bbb7547e35dbe476f281b157ebe4f7a77fed0d9cb786973",
+    "data/clean/wd50k_100/statements/valid.txt": "47f655f963192084712772c1360026570fffda37024c08a8026a38ceabd25ef3",
+    "data/clean/wd50k_100/statements/test.txt": "2d1c5f2e86e92e39edaa6de969854e54ca45b37e20c7ad160d88d9ba3d2c5566"
+  },
+  "repo_mirror_sha256": {
+    "data/wd50k_100/train.txt": "ae2dac6a2131fcd31bbb7547e35dbe476f281b157ebe4f7a77fed0d9cb786973",
+    "data/wd50k_100/valid.txt": "47f655f963192084712772c1360026570fffda37024c08a8026a38ceabd25ef3",
+    "data/wd50k_100/test.txt": "2d1c5f2e86e92e39edaa6de969854e54ca45b37e20c7ad160d88d9ba3d2c5566"
+  },
+  "note": "Pinned upstream for the StarE input-representation comparison. Re-fetch with .harness/scripts/fetch_stare.py; the clone is git-ignored, this lock file is tracked. The three data files must be byte-identical to the repo's data/wd50k_100/ copies."
+}

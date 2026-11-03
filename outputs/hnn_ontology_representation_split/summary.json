@@ -1,0 +1,110 @@
+{
+  "arms": [
+    "hyper",
+    "reified_binary",
+    "flat_text"
+  ],
+  "seeds": [
+    1,
+    2,
+    3
+  ],
+  "k": 5,
+  "n_items": 118,
+  "world_preset": "v1",
+  "steps": 1500,
+  "means": {
+    "hyper": {
+      "encoder_acc@1": 0.7457627118644067,
+      "retrieval_hit@5": 0.4858757062146893,
+      "gold_in_memory": 0.6242937853107344,
+      "memory_acc@1": 0.5282485875706214
+    },
+    "reified_binary": {
+      "encoder_acc@1": 0.7344632768361582,
+      "retrieval_hit@5": 0.2796610169491525,
+      "gold_in_memory": 0.4745762711864407,
+      "memory_acc@1": 0.4209039548022599
+    },
+    "flat_text": {
+      "encoder_acc@1": 0.3446327683615819,
+      "retrieval_hit@5": 0.8898305084745762,
+      "gold_in_memory": 0.9011299435028248,
+      "memory_acc@1": 0.3700564971751412
+    }
+  },
+  "rows": [
+    {
+      "arm": "hyper",
+      "seed": 1,
+      "encoder_acc@1": 0.7457627118644068,
+      "retrieval_hit@5": 0.5,
+      "gold_in_memory": 0.6440677966101694,
+      "memory_acc@1": 0.5677966101694916
+    },
+    {
+      "arm": "hyper",
+      "seed": 2,
+      "encoder_acc@1": 0.7288135593220338,
+      "retrieval_hit@5": 0.4491525423728814,
+      "gold_in_memory": 0.6101694915254238,
+      "memory_acc@1": 0.4830508474576271
+    },
+    {
+      "arm": "hyper",
+      "seed": 3,
+      "encoder_acc@1": 0.7627118644067796,
+      "retrieval_hit@5": 0.5084745762711864,
+      "gold_in_memory": 0.6186440677966102,
+      "memory_acc@1": 0.5338983050847458
+    },
+    {
+      "arm": "reified_binary",
+      "seed": 1,
+      "encoder_acc@1": 0.6440677966101694,
+      "retrieval_hit@5": 0.17796610169491525,
+      "gold_in_memory": 0.3813559322033898,
+      "memory_acc@1": 0.3050847457627119
+    },
+    {
+      "arm": "reified_binary",
+      "seed": 2,
+      "encoder_acc@1": 0.8220338983050848,
+      "retrieval_hit@5": 0.3983050847457627,
+      "gold_in_memory": 0.6016949152542372,
+      "memory_acc@1": 0.559322033898305
+    },
+    {
+      "arm": "reified_binary",
+      "seed": 3,
+      "encoder_acc@1": 0.7372881355932204,
+      "retrieval_hit@5": 0.2627118644067797,
+      "gold_in_memory": 0.4406779661016949,
+      "memory_acc@1": 0.3983050847457627
+    },
+    {
+      "arm": "flat_text",
+      "seed": 1,
+      "encoder_acc@1": 0.3559322033898305,
+      "retrieval_hit@5": 0.8305084745762712,
+      "gold_in_memory": 0.8389830508474576,
+      "memory_acc@1": 0.3728813559322034
+    },
+    {
+      "arm": "flat_text",
+      "seed": 2,
+      "encoder_acc@1": 0.3644067796610169,
+      "retrieval_hit@5": 0.923728813559322,
+      "gold_in_memory": 0.9322033898305084,
+      "memory_acc@1": 0.3728813559322034
+    },
+    {
+      "arm": "flat_text",
+      "seed": 3,
+      "encoder_acc@1": 0.3135593220338983,
+      "retrieval_hit@5": 0.9152542372881356,
+      "gold_in_memory": 0.9322033898305084,
+      "memory_acc@1": 0.3644067796610169
+    }
+  ]
+}

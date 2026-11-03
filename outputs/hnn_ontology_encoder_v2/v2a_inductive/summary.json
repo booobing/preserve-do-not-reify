@@ -1,0 +1,642 @@
+[
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 1,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 7.1946563720703125,
+    "final_loss": 0.9164711833000183,
+    "retrieval": {
+      "recall@1": 0.47863250970840454,
+      "recall@5": 0.8717949390411377,
+      "recall@10": 0.9230769872665405,
+      "mrr": 0.6526579856872559,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.2966101694915254,
+      "acc@3": 0.4745762711864407,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.4782608449459076,
+      "recall@5": 0.8260869383811951,
+      "recall@10": 0.9217391014099121,
+      "mrr": 0.6328929662704468,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.211864406779661,
+      "acc@3": 0.4661016949152542,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 107.52656410000054,
+    "peak_vram_mb": 78.9169921875,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 2,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.9793901443481445,
+    "final_loss": 0.8810187578201294,
+    "retrieval": {
+      "recall@1": 0.5128205418586731,
+      "recall@5": 0.9059829711914062,
+      "recall@10": 0.9743590354919434,
+      "mrr": 0.6780686378479004,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.288135593220339,
+      "acc@3": 0.5254237288135594,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.46956518292427063,
+      "recall@5": 0.8173912763595581,
+      "recall@10": 0.8869564533233643,
+      "mrr": 0.6149152517318726,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.2033898305084746,
+      "acc@3": 0.4745762711864407,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 101.03002459998243,
+    "peak_vram_mb": 78.91796875,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 3,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 7.214896202087402,
+    "final_loss": 1.1784838438034058,
+    "retrieval": {
+      "recall@1": 0.504273533821106,
+      "recall@5": 0.8803419470787048,
+      "recall@10": 0.9487180113792419,
+      "mrr": 0.6632360816001892,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.3050847457627119,
+      "acc@3": 0.4830508474576271,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.43478259444236755,
+      "recall@5": 0.834782600402832,
+      "recall@10": 0.9217391014099121,
+      "mrr": 0.5974069237709045,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.2796610169491525,
+      "acc@3": 0.4491525423728814,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 103.45764979999512,
+    "peak_vram_mb": 78.916015625,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 4,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.318509101867676,
+    "final_loss": 1.1067595481872559,
+    "retrieval": {
+      "recall@1": 0.5213675498962402,
+      "recall@5": 0.888888955116272,
+      "recall@10": 0.9230769872665405,
+      "mrr": 0.6711705923080444,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.3135593220338983,
+      "acc@3": 0.4745762711864407,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.43478259444236755,
+      "recall@5": 0.8086956143379211,
+      "recall@10": 0.8695651888847351,
+      "mrr": 0.5924105048179626,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.2457627118644068,
+      "acc@3": 0.4661016949152542,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 104.07360630005132,
+    "peak_vram_mb": 78.916015625,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "hyper",
+    "seed": 5,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 5.986027717590332,
+    "final_loss": 0.9252422451972961,
+    "retrieval": {
+      "recall@1": 0.4700855016708374,
+      "recall@5": 0.8034188151359558,
+      "recall@10": 0.888888955116272,
+      "mrr": 0.6226795315742493,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.3474576271186441,
+      "acc@3": 0.5254237288135594,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.4260869324207306,
+      "recall@5": 0.7739130258560181,
+      "recall@10": 0.8956521153450012,
+      "mrr": 0.5817856192588806,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.3220338983050847,
+      "acc@3": 0.4152542372881356,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 112.09750949998852,
+    "peak_vram_mb": 78.9169921875,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 1,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.494523048400879,
+    "final_loss": 1.3287729024887085,
+    "retrieval": {
+      "recall@1": 0.32478633522987366,
+      "recall@5": 0.752136766910553,
+      "recall@10": 0.8547009229660034,
+      "mrr": 0.5061733722686768,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.2288135593220339,
+      "acc@3": 0.4406779661016949,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.2956521511077881,
+      "recall@5": 0.6173912882804871,
+      "recall@10": 0.782608687877655,
+      "mrr": 0.46371689438819885,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.17796610169491525,
+      "acc@3": 0.3983050847457627,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 129.51078389998293,
+    "peak_vram_mb": 92.24609375,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 2,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 7.057910919189453,
+    "final_loss": 1.4064445495605469,
+    "retrieval": {
+      "recall@1": 0.2735042870044708,
+      "recall@5": 0.7264957427978516,
+      "recall@10": 0.8376069068908691,
+      "mrr": 0.4677455723285675,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.2033898305084746,
+      "acc@3": 0.4406779661016949,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.313043475151062,
+      "recall@5": 0.7130434513092041,
+      "recall@10": 0.8521738648414612,
+      "mrr": 0.4953150749206543,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.19491525423728814,
+      "acc@3": 0.4406779661016949,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 124.22952459997032,
+    "peak_vram_mb": 92.2470703125,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 3,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.13520622253418,
+    "final_loss": 1.5790750980377197,
+    "retrieval": {
+      "recall@1": 0.39316239953041077,
+      "recall@5": 0.7094017267227173,
+      "recall@10": 0.8974359631538391,
+      "mrr": 0.5455363988876343,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.2033898305084746,
+      "acc@3": 0.4576271186440678,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.23478259146213531,
+      "recall@5": 0.6173912882804871,
+      "recall@10": 0.7913042902946472,
+      "mrr": 0.4124147295951843,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.2033898305084746,
+      "acc@3": 0.423728813559322,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 118.0328981000348,
+    "peak_vram_mb": 92.2451171875,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 4,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.716545104980469,
+    "final_loss": 1.226435661315918,
+    "retrieval": {
+      "recall@1": 0.32478633522987366,
+      "recall@5": 0.7179487347602844,
+      "recall@10": 0.8461539149284363,
+      "mrr": 0.4898151457309723,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.2288135593220339,
+      "acc@3": 0.4152542372881356,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.24347825348377228,
+      "recall@5": 0.7043477892875671,
+      "recall@10": 0.7999999523162842,
+      "mrr": 0.4335578680038452,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.17796610169491525,
+      "acc@3": 0.3983050847457627,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 115.52825079998001,
+    "peak_vram_mb": 92.2451171875,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  },
+  {
+    "factor": "v2a_inductive",
+    "factor_config": {
+      "inductive": true,
+      "head_parity": false,
+      "text_tower": "hashing",
+      "real": false
+    },
+    "arm": "reified_binary",
+    "seed": 5,
+    "params": 351553,
+    "steps": 1500,
+    "batch_size": 32,
+    "lr": 0.002,
+    "first_loss": 6.833484649658203,
+    "final_loss": 1.4850125312805176,
+    "retrieval": {
+      "recall@1": 0.32478633522987366,
+      "recall@5": 0.7094017267227173,
+      "recall@10": 0.8461539149284363,
+      "mrr": 0.5033575892448425,
+      "n": 117.0
+    },
+    "completion": {
+      "acc@1": 0.19491525423728814,
+      "acc@3": 0.3983050847457627,
+      "n": 118.0
+    },
+    "val_retrieval": {
+      "recall@1": 0.33043476939201355,
+      "recall@5": 0.6521738767623901,
+      "recall@10": 0.8086956143379211,
+      "mrr": 0.47085925936698914,
+      "n": 115.0
+    },
+    "val_completion": {
+      "acc@1": 0.2288135593220339,
+      "acc@3": 0.3983050847457627,
+      "n": 118.0
+    },
+    "inductive": {
+      "inductive": 1.0,
+      "facts_total": 390.0,
+      "facts_in_training_graph": 272.0,
+      "held_out_facts": 118.0,
+      "nodes_total": 78.0,
+      "nodes_in_training_graph": 78.0,
+      "memberships_removed": 498.0
+    },
+    "mask_chunk": 128,
+    "wall_time_s": 112.48897860001307,
+    "peak_vram_mb": 92.24609375,
+    "device": "cuda",
+    "deterministic": true,
+    "model_config": {
+      "d": 64,
+      "layers": 2,
+      "text_dim": 64,
+      "text_buckets": 4096,
+      "dropout": 0.0,
+      "head_parity": false,
+      "text_tower": "hashing"
+    }
+  }
+]
