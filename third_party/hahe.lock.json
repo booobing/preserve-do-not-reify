@@ -7,12 +7,12 @@
   "charter": "docs/charter-hahe-same-harness-v1.md",
   "root": "third_party/HAHE",
   "files_sha256": {
-    "src/run.py": "4d88ab1bd04c8088155a3b5c81fa2b6d581dd4e70561528d1c2c647a86200572",
-    "src/reader.py": "db9af96535fcecc50f3c39fd066b508d23830687c93688d7d45125270ca6ec3b",
-    "src/transformer.py": "1f56a56b2420a12706a9143d0a52822dd337ecd1c74f6489aad5fb406fcbf471",
-    "src/graph.py": "6d441e27f1be9fe9c8b81227cc43b7a4fbee07c9456d2284a9e0c00392f7a7fa",
-    "src/evaluation.py": "8a55de38b9f5e43e85a3832e13803868a61da134786926433a539a054c01ee01"
+    "src/run.py": "f0c65b58c5c7ece99a282f455c1613c2eb8142ed7fab6c534932aa2c1c6fa624",
+    "src/reader.py": "6a2ca64885a8802b00679c2c59b80e6b89f709363fa73209507ee6d0229cabb4",
+    "src/transformer.py": "69a7afb9f95619477b5c641e61324c50ece75250aca13380433c0fdd567feaae",
+    "src/graph.py": "bf44b240fe3a894ea3175377f0c80a995e78f4d87a8e9afd9be6adf6f85c6da7",
+    "src/evaluation.py": "d1385c64689357ceac21d2ab73da8ac825987c631bf8d61db94d4e971eecdeab"
   },
   "repo_mirror_sha256": {},
-  "note": "Pinned upstream HAHE (ACL 2023). Only src/ is used; its WD50K(100) json files are NOT used - the bridge feeds HAHE the exact rows of the StarE harness. Re-fetch with .harness/scripts/fetch_hahe.py."
+  "note": "Pinned upstream HAHE (ACL 2023). Only src/ is used; its WD50K(100) json files are NOT used - the bridge feeds HAHE the exact rows of the StarE harness. Re-fetch with .harness/scripts/fetch_hahe.py. Hashes are sha256 of each file with CRLF line endings normalised to LF (src/ontology/stare_bridge/upstream.py sha256_of)."
 }

@@ -43,11 +43,9 @@ def stare_root(lock: Mapping[str, Any] | None = None) -> Path:
 
 
 def sha256_of(path: Path | str) -> str:
-    digest = hashlib.sha256()
-    with Path(path).open("rb") as handle:
-        for chunk in iter(lambda: handle.read(1 << 20), b""):
-            digest.update(chunk)
-    return digest.hexdigest()
+    """sha256 of the file with CRLF line endings normalised to LF, so the check does not depend on
+    git's `core.autocrlf` or on whether a file was cloned or downloaded."""
+    return hashlib.sha256(Path(path).read_bytes().replace(b"\r\n", b"\n")).hexdigest()
 
 
 def file_mismatches(base: Path | str, expected: Mapping[str, str]) -> list[str]:
