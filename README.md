@@ -188,10 +188,11 @@ after the runs.
 
 ## Differences from the research repository
 
-- Code, tests, scripts, documents and artifacts are identical copies (up to line endings), with one exception:
-  `sha256_of` in `src/ontology/stare_bridge/upstream.py` now normalises CRLF to LF, and the two lock files carry
-  the matching hashes. The original check only passed on a Windows checkout with `core.autocrlf=true`.
-  Data loading and training are untouched.
+- Code, tests, scripts, documents and artifacts are identical copies (up to line endings). One fix was made while
+  building this repository and then applied to the research repository as well: `sha256_of` in
+  `src/ontology/stare_bridge/upstream.py` normalises CRLF to LF, and the two lock files carry the matching hashes.
+  Before, the upstream check only passed on a Windows checkout with `core.autocrlf=true`. Data loading and
+  training are untouched.
 - `pyproject.toml` keeps only the dependencies this paper uses. `uv.lock` was relocked with the original
   cutoffs, so every remaining package has the same version.
 
